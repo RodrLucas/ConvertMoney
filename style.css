@@ -7,16 +7,23 @@
 
 body {
     background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     width: 375px;
     background-color: #F4F4F4;
-    margin: 90px auto 0 auto;
 }
 
 header {
     background: #1B83E2;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -25,9 +32,7 @@ h1 {
     font-size: 24px;
     line-height: 18px;
     color: #F4F4F4;
-    padding-left: 54px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 label {
@@ -105,10 +110,18 @@ section {
     margin-top: 36px;
     margin-bottom: 32px;
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .section-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .subtitleName {
@@ -127,7 +140,3 @@ section {
     color: #1B83E2;
 }
 
-#img-arrow { 
-    display: block;
-    margin: 15px auto;
-}
